@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerNav{
+    @apply bg-teal-800 w-full py-6 px-4 flex justify-between items-center 
+}

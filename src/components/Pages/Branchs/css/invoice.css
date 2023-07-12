@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+.parentInvoice{
+    @apply bg-white xl:w-[96%]  m-auto mt-4 rounded-md shadow-md
+    px-4 py-4
+}
+
+.headInvoice{
+    @apply flex justify-between items-center
+}
+
+.btnInvoice{
+    @apply bg-teal-600 py-3 px-2 text-gray-50 shadow-md rounded-md
+}
+
+table{
+    @apply w-[96%]  border-2 m-auto mt-3 text-left
+}
+
+th{
+    @apply bg-slate-800 text-white py-3 pl-4 border-2
+}
+tbody,td{
+    @apply   py-2 border-2  pl-4
+}
+
+tr:nth-child(odd){
+    @apply bg-gray-100  
+}
+
+tr:nth-child(even){
+    @apply bg-white 
+}
+.assignBtn{
+    @apply bg-sky-700 px-4 py-1 text-white rounded-md shadow-md text-center 
+}
+
+.modalContainer{
+    @apply backdrop-blur-md top-0 bg-white/10 left-0 fixed w-full duration-300  h-screen
+}
+.closeModalContainer{
+    @apply backdrop-blur-md -top-96 bg-white/10 left-0 absolute w-full duration-300  
+}
+
+.modalChild{
+    @apply bg-gray-50 rounded-lg  shadow-lg  m-auto py-4 px-4 w-5/12   absolute top-[45%] -translate-y-[50%] left-[50%] -translate-x-[50%]
+}
+.closeModalContainer{
+    @apply fixed -top-96 duration-300
+}
+.modalChildAssign{
+    @apply bg-gray-50 rounded-lg  shadow-lg  m-auto py-4 px-4 w-9/12   absolute top-[45%] -translate-y-[50%] left-[50%] -translate-x-[50%]
+}
+.modalContainerAssign{
+    @apply backdrop-blur-md top-0 bg-white/10 left-0 fixed w-full duration-300  h-screen
+}
+
+

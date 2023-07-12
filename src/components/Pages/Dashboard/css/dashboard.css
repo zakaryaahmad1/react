@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerDash{
+    @apply bg-white py-10 grid lg:grid-cols-3 lg:justify-items-center  gap-4 text-white rounded-md shadow-md
+    lg:px-5
+    md:grid-cols-2 md:px-1 md:gap-x-3
+
+}
+.childDash{
+    @apply  bg-[#208241]  cursor-pointer duration-500 hover:bg-teal-600 py-3   rounded-md shadow-md  px-4   m-auto
+
+    xl:py-7   xl:w-10/12
+    md:w-10/12  md:py-4
+
+    w-10/12 
+}
+.childDash1{
+    @apply  bg-indigo-700  cursor-pointer duration-500 hover:bg-indigo-600 py-3   rounded-md shadow-md  px-4   m-auto
+    xl:py-7   xl:w-10/12
+    md:w-10/12  md:py-4
+
+    w-10/12 
+}
+.childDash2{
+    @apply  bg-[#24783e]  cursor-pointer duration-500 hover:bg-[#4bc36f] py-3  rounded-md shadow-md  px-4   m-auto
+    xl:py-7   xl:w-10/12
+    md:w-10/12  md:py-4
+
+    w-10/12 
+}
+
+.contentDash{
+    @apply xl:flex xl:justify-between xl:items-center 
+    md:flex md:justify-between md:items-center
+    flex items-center justify-between
+}

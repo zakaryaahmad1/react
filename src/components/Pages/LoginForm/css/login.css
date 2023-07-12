@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.formLogin{
+    @apply bg-white 
+    xl:w-4/12  xl:m-auto rounded-md shadow-md  xl:mt-32
+    py-2
+}
+.headLogin{
+    @apply text-3xl  text-center xl:py-4 font-semibold font-serif
+}
+.childLogin{
+    @apply flex flex-col
+}
+.inputLogin{
+    @apply border focus:border focus:border-indigo-700 outline-none duration-300 rounded-sm shadow-sm
+
+    xl:px-2 xl:py-3 w-11/12 m-auto
+}
+
+.parentBtn{
+    @apply w-full  py-5 px-3 flex justify-end
+}
+
+.btnLogin{
+    @apply bg-indigo-800 text-white  cursor-pointer
+
+    rounded-sm shadow-sm hover:bg-indigo-700 duration-300
+    xl:py-3 xl:px-3 xl:mr-3 xl:w-3/12 tracking-wider
+}
